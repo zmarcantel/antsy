@@ -1,0 +1,27 @@
+{
+  "name": "antsy",
+  "version": "0.0.1",
+  "description": "simple yet effective javascript synchronicity library",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zmarcantel/antsy.git"
+  },
+  "keywords": [
+    "sync",
+    "async",
+    "queue"
+  ],
+  "author": "Zachary Marcantel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zmarcantel/antsy/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.0",
+    "should": "~1.2.2"
+  }
+}
