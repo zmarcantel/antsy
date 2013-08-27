@@ -141,7 +141,7 @@
     //
     this.finished = function(cb) {
       var bare_cb = (function(err, res) { 
-        return err ? err : this.results.length; 
+        return err ? err : this.results; 
       }).bind(this);
 
       // if no callback defined, wrap a bare one

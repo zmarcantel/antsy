@@ -214,7 +214,7 @@ describe('.finished()', function() {
              .now(returnGiven, 2)
              .now(returnGiven, 3)
              .finished()
-             .should.equal(3);
+             .should.eql([1,2,3]);
       });
 
       it('Returns error (if errors)', function() {
